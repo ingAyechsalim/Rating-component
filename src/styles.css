@@ -1,0 +1,32 @@
+.rating {
+  direction: rtl;
+  width: 100px;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+  color: gold;
+  top: 0;
+  left: 0;
+}
+.indice {
+  color: rgb(27, 21, 109);
+}
+.movedRate {
+  color: gold;
+}
+.RatingApp {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  height: 150px;
+  background-color: rgb(144, 235, 189);
+  border-radius: 5px;
+}
